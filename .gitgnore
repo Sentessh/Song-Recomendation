@@ -1,0 +1,11 @@
+# Python
+backend/venv/        ← ignora o ambiente virtual do backend
+__pycache__/         ← ignora caches do Python
+*.pyc                ← ignora bytecode do Python
+
+frontend/node_modules/  ← ignora as dependências do frontend (recriadas com npm install)
+frontend/dist/          ← ignora a pasta de build (gerada pelo Vite)
+
+.env                    ← ignora variáveis de ambiente/segredos
+*.log                   ← ignora logs
+.DS_Store / Thumbs.db   ← lixo do sistema (macOS/Windows)
