@@ -15,7 +15,7 @@ export default function App() {
       {/* Navbar simples */}
       <nav className="w-full sticky top-0 z-20 bg-black/70 backdrop-blur border-b border-white/10">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3">
-          <div className="text-lg font-semibold">🎧 Song Dashboard</div>
+          <div className="text-lg font-semibold">Song Recomendation</div>
           <div className="flex items-center gap-2 ml-auto">
             <NavLink
               to="/"
